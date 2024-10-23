@@ -1,0 +1,5 @@
+x = int(input("Konfetni kg da kiriting: "))
+a = int(input("Endi uni narxini kiriting: "))
+y = int(input("Yana konfetni kg da kiriting: "))
+bir_kg_konfet = int(a/x)
+print("1 kg konfet " + str(abs(bir_kg_konfet)) + " so'm tursa, " + str(y) + "kg shokolad " + str(bir_kg_konfet*y) +"so'm turadi.")

@@ -1,0 +1,5 @@
+a = int(input("Paralelepepidning a tomonini kiriting: " ))
+b = int(input("Paralelepepidning b tomonini kiriting: " ))
+s = int(input("Paralelepepidning s tomonini kiriting: " ))
+print('Hajmi: ' + str(a*b*s))
+print("To'la Sirti: "+ str(2*(a*b+b*s+a*s)))
