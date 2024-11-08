@@ -1,0 +1,8 @@
+x = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+x1 = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y1 = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+print("Farz bir yurishda bir maydondan ikkinchisiga o'ta oladi: ",(abs(x1-y1) == abs(x-y)) or (x1 == x or y1 == y))
+#if x1 == x or y1==y: print(True)
+#elif abs(x-x1) == abs(y1-y): print(True)
+#else: print(False)

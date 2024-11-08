@@ -1,0 +1,5 @@
+x = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+x1 = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y1 = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+print("Shaxmat doskasidagi 2 ta maydon bir xil rangdami: ", ((x+y) % 2 == 0 and (x1 + y1) % 2 == 0) or ((x+y) % 2 == 1 and (x1 + y1) % 2 == 1))

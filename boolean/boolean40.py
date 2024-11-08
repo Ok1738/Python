@@ -1,0 +1,5 @@
+x = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+x1 = int(input("1-8 gacha shaxmat x uchun son kiriting: "))
+y1 = int(input("1-8 gacha shaxmat y uchun son kiriting: "))
+print("Ot bir yurishda bir maydondan ikkinchisiga o'ta oladi: ", ((y1 == y + 1 or y1 == y - 1) and (x1 == x + 2 or x1 == x - 2)) or ((y1 == y + 2 or y1 == y - 2) and (x1 == x + 1 or x1 == x - 1)))
