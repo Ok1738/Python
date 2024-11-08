@@ -1,0 +1,5 @@
+v1 = int(input("Birinchi avtomobil uchun tezlik kiriting(km/soat): "))
+v2 = int(input("Ikkinchi avtomobil uchun tezlik kiriting(km/soat): "))
+s = int(input("Ular orasidagi masofani kiriting(km): "))
+t = int(input("Ular bir biriga teskari ketish uchun sarflagan vaqtini kiriting(soat):"))
+print("Ikki avtomobil bir-biridan uzoqlashishni boshlaganda masofa " + str(s+t*(v1+v2)) + "km teng bo'ldi.")
