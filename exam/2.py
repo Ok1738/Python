@@ -1,0 +1,13 @@
+import math
+a = int(input("A kesma uchun Son kiriting: "))
+b = int(input("B kesma uchun Son kiriting: "))
+c = int(input("C kesma uchun Son kiriting: "))
+print(a+b+c)
+print(a*b*c)
+print((a+b+c)/3)
+print(2*a)
+print(2*b)
+print(2*c)
+print(pow(a,2))
+print(pow(b,2))
+print(pow(c,2))

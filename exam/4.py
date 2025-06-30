@@ -1,0 +1,5 @@
+m = int(input("Millimetrda son kiriting: "))
+print("santimetrda: " + str(m/10))
+print("Detsimetrda: " + str(m/100))
+print("Metrda: " + str(m/1000))
+print("Kilometrda :" + str(m/1000000))
